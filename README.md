@@ -59,7 +59,33 @@ int main()
     
    
     //PROFIT OR LOSS
-    
+    #include <iostream>
+using namespace std;
+int main()
+{
+	int pp, sp, profit, loss;
+	cout << "Enter Purchase Price: " << endl;
+	cin >> pp;
+	cout << "Enter Sale Price: " << endl;
+	cin >> sp;
+		if (sp > pp);
+		{
+	profit = sp - pp;
+	cout << "Profit: " << profit << endl;
+	}
+	 if (pp > sp)
+		{
+			loss = pp - sp;
+			cout << "Loss of: " << loss << endl;
+		}
+		else {
+			cout << "no profit and no loss.";
+
+		}
+
+}
+
+    //NAME THAT SHAPE
     
     
     
