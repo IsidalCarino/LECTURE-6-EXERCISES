@@ -18,12 +18,11 @@ int main()
     cin >> again;
     }
 
-//ODD OR EVEN
-    
+//ODD OR EVEN    
 #include <iostream>
 using namespace std;
 int main()
-{
+{   
     char again = 'y';
     while (again == 'y' || again == 'Y') {
         int x;
@@ -39,7 +38,26 @@ int main()
         return 0;
     
  //NUMBER CHECKER
+    #include <iostream>
+using namespace std;
+int main()
+{
+    char again = 'y';
+    while (again == 'y' || again == 'Y') {
+        int number;
+        cout << "Enter a number: ";
+        cin >> number;
+        if (number >= 1)
+            cout << number << " is a postive number." << endl;
+        if (number <= -1)
+            cout << number << " is a negative number." << endl;
+        if (number == 0)
+            cout << "The number is zero." << endl;
+    }cout << "Go again? (Y or N): ";
+    cin >> again;
+}
     
+   
     
     
     
