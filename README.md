@@ -1,10 +1,12 @@
-# Lecture-6-Exercise
+//CAN I VOTE
 #include <iostream>
 using namespace std;
 int main()
 {
+    char again = 'y';
+        while (again=='y'||again == 'Y'){
     bool canivote = true;
-    cout << "What is your age?";
+    cout << "Enter your age: ";
     int agenum;
     cin >> agenum;
     if (agenum < 18) {
@@ -12,7 +14,9 @@ int main()
     }
     else if (agenum > 18) {
         cout << "You can vote" << endl;
+    }cout << "Go again? (Y or N): ";
+    cin >> again;
     }
-}
-  
-  //odd and even
+
+//ODD OR EVEN
+    
