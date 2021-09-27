@@ -80,12 +80,24 @@ int main()
 		}
 		else {
 			cout << "no profit and no loss.";
-
 		}
-
 }
 
     //NAME THAT SHAPE
+#include <iostream>
+using namespace std;
+int main()
+{
+    int shapes;
+    cout << "Enter how many sides of the shape: " << endl;
+    cin >> shapes;
+    if (shapes = 3) {
+        cout << "Triangle"; << endl;
+    }if (shapes = 4) {
+        cout << "Square"; << endl;
+    //very sorry ms i think i need help on this one :(
+    }
+}
     
     
     
