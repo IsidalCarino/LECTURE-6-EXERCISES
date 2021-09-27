@@ -38,7 +38,7 @@ int main()
         return 0;
     
  //NUMBER CHECKER
-    #include <iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -58,8 +58,8 @@ int main()
 }
     
    
-    //PROFIT OR LOSS
-    #include <iostream>
+//PROFIT OR LOSS
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -83,7 +83,7 @@ int main()
 		}
 }
 
-    //NAME THAT SHAPE
+//NAME THAT SHAPE
 #include <iostream>
 using namespace std;
 int main()
