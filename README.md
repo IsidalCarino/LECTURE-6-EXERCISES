@@ -1,4 +1,4 @@
-//CAN I VOTE
+#CAN I VOTE
 #include <iostream>
 using namespace std;
 int main()
