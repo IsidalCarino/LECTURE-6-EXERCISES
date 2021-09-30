@@ -1,14 +1,15 @@
 # CAN I VOTE
+```
 #include <iostream>
 using namespace std;
 int main()
 {
-    char again = 'y';
-        while (again=='y'||again == 'Y'){
-    bool canivote = true;
+char again = 'y'; 
+while (again=='y'||again == 'Y'){
+bool canivote = true;
     cout << "Enter your age: ";
-    int agenum;
-    cin >> agenum;
+int agenum;
+	cin >> agenum;
     if (agenum < 18) {
         cout << "You cannot vote" << endl;
     }
@@ -17,8 +18,10 @@ int main()
     }cout << "Go again? (Y or N): ";
     cin >> again;
     }
-
+```
+	
 # ODD OR EVEN    
+```
 #include <iostream>
 using namespace std;
 int main()
@@ -36,8 +39,9 @@ int main()
     cin >> again;
     }
         return 0;
-    
+```
 # NUMBER CHECKER
+```
 #include <iostream>
 using namespace std;
 int main()
@@ -56,9 +60,10 @@ int main()
     }cout << "Go again? (Y or N): ";
     cin >> again;
 }
-    
+```
    
 # PROFIT OR LOSS
+```
 #include <iostream>
 using namespace std;
 int main()
@@ -82,8 +87,9 @@ int main()
 			cout << "no profit and no loss.";
 		}
 }
-
+```
 # NAME THAT SHAPE
+```
 #include <iostream>
 using namespace std;
 int main()
@@ -98,6 +104,7 @@ int main()
     //very sorry ms i think i need help on this one :(
     }
 }
+```
     
     
     
