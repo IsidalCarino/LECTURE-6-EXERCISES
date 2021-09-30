@@ -1,4 +1,4 @@
-//CAN I VOTE
+# CAN I VOTE
 #include <iostream>
 using namespace std;
 int main()
@@ -18,7 +18,7 @@ int main()
     cin >> again;
     }
 
-//ODD OR EVEN    
+# ODD OR EVEN    
 #include <iostream>
 using namespace std;
 int main()
@@ -37,7 +37,7 @@ int main()
     }
         return 0;
     
- //NUMBER CHECKER
+# NUMBER CHECKER
 #include <iostream>
 using namespace std;
 int main()
@@ -58,7 +58,7 @@ int main()
 }
     
    
-//PROFIT OR LOSS
+# PROFIT OR LOSS
 #include <iostream>
 using namespace std;
 int main()
@@ -83,7 +83,7 @@ int main()
 		}
 }
 
-//NAME THAT SHAPE
+# NAME THAT SHAPE
 #include <iostream>
 using namespace std;
 int main()
