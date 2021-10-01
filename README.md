@@ -94,15 +94,49 @@ int main()
 using namespace std;
 int main()
 {
-    int shapes;
-    cout << "Enter how many sides of the shape: " << endl;
-    cin >> shapes;
-    if (shapes = 3) {
-        cout << "Triangle"; << endl;
-    }if (shapes = 4) {
-        cout << "Square"; << endl;
-    //very sorry ms i think i need help on this one :(
-    }
+
+int shapes;
+
+cout << "Enter the side number to name the shape: " << endl;
+cin >> shapes;
+if (shapes <= 2)
+{
+cout << "Minimum should be atleast 3 side number.";
+}
+
+
+else if ((shapes == 3) && (shapes > 3 ) )
+{
+cout << "Triangle";
+}
+else if (shapes == 4 && shapes > 3) {
+cout << "Square";
+}
+else if (shapes == 5 && shapes > 3) {
+cout << "Pentagon";
+}
+else if (shapes == 6 && shapes > 3) {
+cout << "Hexagon";
+}
+
+else if (shapes == 7 && shapes > 3) {
+cout << "Heptagon ";
+}
+else if (shapes == 8 && shapes > 3) {
+cout << "Octagon";
+}
+else if (shapes == 9 && shapes > 3) {
+cout << "Nonagon";
+}
+else if (shapes == 10 && shapes > 3) {
+cout << "Decagon";
+}
+
+
+else
+{
+cout << "Incorrect input, please enter the correct side number";
+}
 }
 ```
     
